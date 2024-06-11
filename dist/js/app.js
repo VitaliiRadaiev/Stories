@@ -136,16 +136,6 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     })
 
-    document.addEventListener('touchmove', function (event) {
-        // Получаем список всех пальцев, участвующих в жесте
-        const touches = event.touches;
-        // Если жест начинается с верхней или нижней части экрана
-        if (touches && (touches[0].clientY < 50 || touches[0].clientY > window.innerHeight - 50)) {
-            // Предотвращаем обновление страницы
-            event.preventDefault();
-        }
-    }, { passive: false });
-
     const clientScreenWidth = document.documentElement.clientWidth;
 
     window.addEventListener('resize', () => {
@@ -1081,6 +1071,18 @@ class StoryCard {
         const btnLeft = storiesCarousel.querySelector('.btn-left');
         const btnRight = storiesCarousel.querySelector('.btn-right');
         const popup = document.querySelector('[data-stories-popup]');
+
+
+        storiesCarousel.addEventListener('touchmove', function (event) {
+            // Получаем список всех пальцев, участвующих в жесте
+            const touches = event.touches;
+            // Если жест начинается с верхней или нижней части экрана
+            if (touches && (touches[0].clientY < 50 || touches[0].clientY > window.innerHeight - 50)) {
+                // Предотвращаем обновление страницы
+                event.preventDefault();
+                event.stopImmediatePropagation();
+            }
+        }, { passive: false });
 
         if (document.documentElement.clientWidth < 920) {
             initMob();
