@@ -1,0 +1,344 @@
+{
+    "companies": [
+        {
+            "id": "X66c7utRUm",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/2592777a-b737-452a-e9d7-92fc00f25a00/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "./public/images/preview_X66c7utRUm_blur.jpg",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                },
+                {
+                    "storyType": "video",
+                    "storyUrl": "./public/video.mp4"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": null,
+            "hasNext": "wBbQd4u69Y"
+        },
+        {
+            "id": "wBbQd4u69Y",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/7dc0a9b4-96be-4368-ea8c-b8bc4de5d700/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/18db2900-8e77-4425-69fa-70f0c9a89400/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/18db2900-8e77-4425-69fa-70f0c9a89400/public"
+                },
+                {
+                    "storyType": "video",
+                    "storyUrl": "https://front.prpl.global/Altman/youtebeShorts.mp4"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/def29928-1faa-4d3a-e46f-f7d2ce40c600/public"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/fa2c3e49-e6d4-40d4-696f-7b72fa9a2300/public"
+                }
+            ],
+            "hasPrevious": "X66c7utRUm",
+            "hasNext": "TnUzuPCcuO"
+        },
+        {
+            "id": "TnUzuPCcuO",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/31813064-5128-4686-6054-489e2ab46b00/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/def29928-1faa-4d3a-e46f-f7d2ce40c600/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/def29928-1faa-4d3a-e46f-f7d2ce40c600/public"
+                },
+                {
+                    "storyType": "video",
+                    "storyUrl": "https://front.prpl.global/Altman/youtebeShorts.mp4"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "wBbQd4u69Y",
+            "hasNext": "WEaFhZBnFW"
+        },
+        {
+            "id": "WEaFhZBnFW",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/9530a501-6139-4ad1-131d-34e5dcb44100/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/dea8a6b2-a143-4ab1-989e-06e604778b00/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/dea8a6b2-a143-4ab1-989e-06e604778b00/public"
+                }
+            ],
+            "hasPrevious": "TnUzuPCcuO",
+            "hasNext": "3nEBubw6YA"
+        },
+        {
+            "id": "3nEBubw6YA",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/36b81961-6670-4c41-8d63-7e4e41574400/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/250b460c-0fca-4c9e-e8ad-d86392686400/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/250b460c-0fca-4c9e-e8ad-d86392686400/public"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "WEaFhZBnFW",
+            "hasNext": "SOx8MGnZEu"
+        },
+        {
+            "id": "SOx8MGnZEu",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/1e08259f-64ff-4935-cda2-2744fb990000/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/c41d89b6-384e-4429-57df-831ccf120900/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/c41d89b6-384e-4429-57df-831ccf120900/public"
+                },
+                {
+                    "storyType": "video",
+                    "storyUrl": "https://front.prpl.global/Altman/youtebeShorts.mp4"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "3nEBubw6YA",
+            "hasNext": "f6OWf1ZyyC"
+        },
+        {
+            "id": "f6OWf1ZyyC",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/4e1143da-71a7-4c4e-2d89-50b695b76500/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/e53277ac-4f27-4b60-312e-1ab855d2f100/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/e53277ac-4f27-4b60-312e-1ab855d2f100/public"
+                }
+            ],
+            "hasPrevious": "SOx8MGnZEu",
+            "hasNext": "OfygaAvNRW"
+        },
+        {
+            "id": "OfygaAvNRW",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/750e44bd-7e21-49f2-0a6d-9c5d8567b300/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/1e0de1d8-7f12-4ece-9dd3-77e6ff508f00/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/1e0de1d8-7f12-4ece-9dd3-77e6ff508f00/public"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "f6OWf1ZyyC",
+            "hasNext": "Bu0WL8bCRL"
+        },
+        {
+            "id": "Bu0WL8bCRL",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/8aa0e4c0-4422-41d9-7d6e-db4c4cf97500/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/fa2c3e49-e6d4-40d4-696f-7b72fa9a2300/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/fa2c3e49-e6d4-40d4-696f-7b72fa9a2300/public"
+                },
+                {
+                    "storyType": "video",
+                    "storyUrl": "https://front.prpl.global/Altman/youtebeShorts.mp4"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "OfygaAvNRW",
+            "hasNext": "qrVYqx3P41"
+        },
+        {
+            "id": "qrVYqx3P41",
+            "logoUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/26898fa1-9dc5-4d41-9a35-7424cd3be500/public",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/a4537486-24ca-4c65-497a-1ebdd1263a00/public",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/a4537486-24ca-4c65-497a-1ebdd1263a00/public"
+                }
+            ],
+            "hasPrevious": "Bu0WL8bCRL",
+            "hasNext": "PYt89lMI0x"
+        },
+        {
+            "id": "PYt89lMI0x",
+            "logoUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG9nb3N8ZW58MHx8MHx8fDA%3D"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "qrVYqx3P41",
+            "hasNext": "NBld71RUPK"
+        },
+        {
+            "id": "NBld71RUPK",
+            "logoUrl": "https://images.unsplash.com/photo-1601158935942-52255782d322?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://images.unsplash.com/photo-1601158935942-52255782d322?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://images.unsplash.com/photo-1601158935942-52255782d322?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bG9nb3N8ZW58MHx8MHx8fDA%3D"
+                },
+                {
+                    "storyType": "video",
+                    "storyUrl": "https://front.prpl.global/Altman/youtebeShorts.mp4"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "PYt89lMI0x",
+            "hasNext": "xVQHekokWH"
+        },
+        {
+            "id": "xVQHekokWH",
+            "logoUrl": "https://images.unsplash.com/photo-1635756837851-d3b6edbaa11c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://images.unsplash.com/photo-1635756837851-d3b6edbaa11c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://images.unsplash.com/photo-1635756837851-d3b6edbaa11c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9nb3N8ZW58MHx8MHx8fDA%3D"
+                }
+            ],
+            "hasPrevious": "NBld71RUPK",
+            "hasNext": "tLn0hTw8bz"
+        },
+        {
+            "id": "tLn0hTw8bz",
+            "logoUrl": "https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://images.unsplash.com/photo-1633409361618-c73427e4e206?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bG9nb3N8ZW58MHx8MHx8fDA%3D"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "xVQHekokWH",
+            "hasNext": "V5Nl9r1DdV"
+        },
+        {
+            "id": "V5Nl9r1DdV",
+            "logoUrl": "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://plus.unsplash.com/premium_photo-1661914978519-52a11fe159a7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bG9nb3N8ZW58MHx8MHx8fDA%3D"
+                },
+                {
+                    "storyType": "video",
+                    "storyUrl": "https://front.prpl.global/Altman/youtebeShorts.mp4"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "tLn0hTw8bz",
+            "hasNext": "HyWLwtehws"
+        },
+        {
+            "id": "HyWLwtehws",
+            "logoUrl": "https://images.unsplash.com/photo-1617566347924-ad5ebdaa014e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxvZ29zfGVufDB8fDB8fHww",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://images.unsplash.com/photo-1585184394271-4c0a47dc59c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bG9nb3N8ZW58MHx8MHx8fDA%3D",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://images.unsplash.com/photo-1585184394271-4c0a47dc59c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bG9nb3N8ZW58MHx8MHx8fDA%3D"
+                }
+            ],
+            "hasPrevious": "V5Nl9r1DdV",
+            "hasNext": "X4lJdKJX9i"
+        },
+        {
+            "id": "X4lJdKJX9i",
+            "logoUrl": "https://images.unsplash.com/photo-1602934445884-da0fa1c9d3b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxvZ29zfGVufDB8fDB8fHww",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://images.unsplash.com/photo-1617566347924-ad5ebdaa014e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxvZ29zfGVufDB8fDB8fHww",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://images.unsplash.com/photo-1617566347924-ad5ebdaa014e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxvZ29zfGVufDB8fDB8fHww"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "HyWLwtehws",
+            "hasNext": "nHfVeDgzC2"
+        },
+        {
+            "id": "nHfVeDgzC2",
+            "logoUrl": "https://images.unsplash.com/photo-1553835973-dec43bfddbeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGxvZ29zfGVufDB8fDB8fHww",
+            "companyTitle": "דור אלון",
+            "storyPreview": "https://images.unsplash.com/photo-1563694983011-6f4d90358083?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvZ29zfGVufDB8fDB8fHww",
+            "stories": [
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://images.unsplash.com/photo-1563694983011-6f4d90358083?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvZ29zfGVufDB8fDB8fHww"
+                },
+                {
+                    "storyType": "video",
+                    "storyUrl": "https://front.prpl.global/Altman/youtebeShorts.mp4"
+                },
+                {
+                    "storyType": "image",
+                    "storyUrl": "https://imagedelivery.net/UJIJkNKUWII1SgPhNql61w/19949849-53e7-456d-348d-343c7acc3700/public"
+                }
+            ],
+            "hasPrevious": "X4lJdKJX9i",
+            "hasNext": null
+        }
+    ]
+}

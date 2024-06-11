@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+@@include('_head.html',{
+"title": "Histories"
+})
+
+<body>
+    <div class="container">
+        <div style="padding-top: 40px;"></div>
+        @@include('./components/stories-nav/_stories-nav.html')
+
+        <div style="padding-top: 40px;"></div>
+
+        <ul class="job-list">
+        </ul>
+
+        <script>
+            const list = document.querySelector('.job-list');
+            StoriesApi.fetch('./public/data.json')
+                .then(({ companies }) => {
+                    const items = companies.map(story => {
+                        const li = document.createElement('li');
+                        li.insertAdjacentHTML('beforeend', `
+                            <div class="job-list-card">
+                                <div class="job-list-card__top">
+                                    <button data-action="open-stories" data-id="${story.id}" class="stories-nav-item">
+                                        <img src="${story.logoUrl}" alt="">
+                                    </button>  
+                                    <div class="job-list-card__title"></div>
+                                </div>
+                                <div class="job-list-card__body"></div>
+                            </div>
+                        `);
+                        return li;
+                    })
+                    list.append(...items);
+                })
+        </script>
+    </div>
+
+    @@include('./components/stories-popup/_stories-popup.html')
+</body>
+
+</html>
