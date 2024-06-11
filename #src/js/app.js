@@ -92,14 +92,17 @@ function slideToggle(target, duration = 500) {
 window.addEventListener('DOMContentLoaded', () => {
     if(isMobile()) {
         document.body.classList.add('mobile-device');
-
-        const images = document.querySelectorAll('img');
-        images.forEach(function(image) {
-            image.addEventListener('contextmenu', function(event) {
-                event.preventDefault();
-            });
-        });
     }
+
+    document.oncontextmenu = function (event) {
+        if (event.target.tagName === 'IMG') {
+            event.preventDefault();
+        }
+        if (event.target.tagName === 'VIDEO') {
+            event.preventDefault();
+        }
+        return false;
+      };
 
     const clientScreenWidth = document.documentElement.clientWidth;
 
