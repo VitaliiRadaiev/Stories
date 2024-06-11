@@ -970,6 +970,13 @@ button.swiper-pagination-bullet {
   overflow: hidden;
 }
 
+html {
+  -ms-touch-action: pan-x pan-y;
+      touch-action: pan-x pan-y;
+  height: 100%;
+  /* prevent pinch-zoom at page bottom */
+}
+
 *,
 *:before,
 *:after {
@@ -979,6 +986,9 @@ button.swiper-pagination-bullet {
 
 body {
   font-family: "Ploni";
+  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+  min-height: 100%;
 }
 
 .container {
@@ -1031,6 +1041,10 @@ body {
   border-radius: 6px;
   height: 300px;
   margin-top: 16px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .stories-nav {
