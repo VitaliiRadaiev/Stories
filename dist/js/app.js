@@ -212,6 +212,10 @@ window.addEventListener('DOMContentLoaded', () => {
                 Array.from(wrapper.children).forEach(child => child.remove());
                 wrapper.append(...slides);
 
+                if (Math.ceil(totalItems / size) < currentPage) {
+                    wrapper.style.setProperty('padding-left', '0px');
+                }
+
                 isLoading = false;
 
             }
@@ -505,7 +509,7 @@ class Stories {
         this.storiesContainer = storiesContainer;
         this.progressLineContainer = progressLineContainer;
         this.btnPlayPause = btnPlayPause;
-        this.duration = 3;
+        this.duration = 6;
         this.stories = this._createStories(stories);
         this._isEnd = false;
         this._isStart = true;

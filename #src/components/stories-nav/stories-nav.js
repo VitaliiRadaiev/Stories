@@ -56,6 +56,10 @@
                 Array.from(wrapper.children).forEach(child => child.remove());
                 wrapper.append(...slides);
 
+                if (Math.ceil(totalItems / size) < currentPage) {
+                    wrapper.style.setProperty('padding-left', '0px');
+                }
+
                 isLoading = false;
 
             }

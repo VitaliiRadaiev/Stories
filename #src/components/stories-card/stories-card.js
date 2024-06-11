@@ -211,7 +211,7 @@ class Stories {
         this.storiesContainer = storiesContainer;
         this.progressLineContainer = progressLineContainer;
         this.btnPlayPause = btnPlayPause;
-        this.duration = 3;
+        this.duration = 6;
         this.stories = this._createStories(stories);
         this._isEnd = false;
         this._isStart = true;
