@@ -206,6 +206,9 @@
         height: 100%;
         background-size: cover;
         background-repeat: no-repeat;
+        pointer-events: none;
+        user-select: none;
+        
         &:not(.active) {
             display: none;
         }
@@ -307,11 +310,9 @@
         width: var(--value);
         border-radius: 99px;
         background-color: #fff;
-        //transition: width .1s linear;
     }
 
     &.viewed {
-       // --value: 0%;
         &:before {
             width: 100%;
         }
@@ -319,7 +320,6 @@
 
     &.active {
         & ~ .progress-line {
-            //--value: 0%;
             &:before {
                 width: 0%;
             }

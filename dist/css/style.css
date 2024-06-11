@@ -1491,6 +1491,11 @@ body {
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .stories-card__stories-item:not(.active) {
