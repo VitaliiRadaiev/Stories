@@ -1793,6 +1793,8 @@ body {
 
   .stories-card {
     border-radius: 0;
+    -webkit-transform: translateZ(1px);
+            transform: translateZ(1px);
   }
 
   .stories-card-shimmer {
