@@ -324,10 +324,6 @@ class ImageStory extends Story {
     }
 
     init() {
-        // const img = document.createElement('img');
-        // img.src = this.url;
-
-        // this.htmlContainer.append(img);
         this.htmlContainer.style.setProperty('background-image', `url(${this.url})`);
         this.animation = this._createAnimator({
             duration: this.duration * 1000,
@@ -922,8 +918,8 @@ class StoryCard {
                 </button>
             </div>
             <div class="stories-card__preview">
-                <div class="stories-card__preview-img">
-                    <img src="${storyData.storyPreview}" alt="">
+                <div class="stories-card__preview-img" style="background-image: url(${storyData.storyPreview});">
+          
                 </div>
                 <div class="stories-card__preview-logo">
                     <img  alt="Business logo" src="${storyData.logoUrl}">
