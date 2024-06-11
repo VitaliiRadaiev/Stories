@@ -1718,8 +1718,19 @@ body {
     display: block;
   }
 
-  .stories-carousel img {
+  .stories-carousel img,
+  .stories-carousel video {
     pointer-events: none;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
   }
 }
 
