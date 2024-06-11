@@ -1272,7 +1272,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  display: none;
 }
 
 .stories-card__preview-img {
