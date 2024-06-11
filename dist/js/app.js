@@ -543,12 +543,26 @@ class Stories {
             st.stop();
         })
 
-        this._removeProgressAnimation();
-        const linePrev = this.progressLineContainer.children[this.activeStoryIndex - 1];
-        linePrev && this._setProgress(linePrev, 1);
+        // this._removeProgressAnimation();
+        // const linePrev = this.progressLineContainer.children[this.activeStoryIndex - 1];
+        // if(linePrev) {
+        //     linePrev.classList.add('viewed');
+        //     linePrev.classList.remove('active');
+        // }
+        // //linePrev && this._setProgress(linePrev, 1);
 
-        const lineNext = this.progressLineContainer.children[this.activeStoryIndex + 1];
-        lineNext && this._setProgress(lineNext, 0);
+        // const line = this.progressLineContainer.children[this.activeStoryIndex];
+        // if(line) {
+        //     line.classList.remove('viewed');
+        //     line.classList.add('active');
+        // }
+
+        // const lineNext = this.progressLineContainer.children[this.activeStoryIndex + 1];
+        // if(lineNext) {
+        //     lineNext.classList.remove('viewed');
+        //     lineNext.classList.remove('active');
+        // }
+        //lineNext && this._setProgress(lineNext, 0);
 
         const play = () => {
             if (story.canPlay) {
@@ -572,6 +586,7 @@ class Stories {
     next() {
         if (this.activeStoryIndex === this.stories.length - 1) return;
         this.activeStoryIndex++;
+        this._updateProgressLines();
         this._render();
         this.play();
         this.changeFns.forEach(fn => fn());
@@ -580,6 +595,7 @@ class Stories {
     prev() {
         if (this.activeStoryIndex === 0) return;
         this.activeStoryIndex--;
+        this._updateProgressLines();
         this._render();
         this.play();
         this.changeFns.forEach(fn => fn());
@@ -590,12 +606,7 @@ class Stories {
         this._isStart = true;
         this.activeStoryIndex = 0;
         this.prevActiveStoryIndex = 0;
-
-        this._removeProgressAnimation();
-        Array.from(this.progressLineContainer.children)
-            .forEach(line => {
-                this._setProgress(line, 0);
-            })
+        this._updateProgressLines();
         this.stories.forEach(story => story.stop());
         this.pause();
         this._render();
@@ -630,6 +641,24 @@ class Stories {
         })
 
         this.progressLineContainer.append(...lines);
+    }
+
+    _updateProgressLines() {
+        Array.from(this.progressLineContainer.children).forEach((line, index) => {
+            const activeIndex = this.activeStoryIndex;
+            if(index < activeIndex) {
+                line.classList.add('viewed');
+                line.classList.remove('active');
+                this._setProgress(line, 0);
+            } else if( index === activeIndex) {
+                line.classList.remove('viewed');
+                line.classList.add('active');
+            } else if (index > activeIndex) {
+                line.classList.remove('viewed');
+                line.classList.remove('active');
+                this._setProgress(line, 0);
+            }
+        })
     }
 
     _createStories(stories) {

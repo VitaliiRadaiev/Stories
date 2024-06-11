@@ -305,7 +305,25 @@
         width: var(--value);
         border-radius: 99px;
         background-color: #fff;
-        transition: width .1s linear;
+        //transition: width .1s linear;
+    }
+
+    &.viewed {
+        --value: 0%;
+        &:before {
+            width: 100%;
+            transition: width 0s linear;
+        }
+    }
+
+    &.active {
+        & ~ .progress-line {
+            --value: 0%;
+            &:before {
+                width: 0%;
+                transition: width 0s linear;
+            }
+        }
     }
 }
 

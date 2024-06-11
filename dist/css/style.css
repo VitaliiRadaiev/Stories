@@ -1605,9 +1605,28 @@ body {
   width: var(--value);
   border-radius: 99px;
   background-color: #fff;
-  -webkit-transition: width 0.1s linear;
-  -o-transition: width 0.1s linear;
-  transition: width 0.1s linear;
+}
+
+.progress-line.viewed {
+  --value: 0%;
+}
+
+.progress-line.viewed:before {
+  width: 100%;
+  -webkit-transition: width 0s linear;
+  -o-transition: width 0s linear;
+  transition: width 0s linear;
+}
+
+.progress-line.active ~ .progress-line {
+  --value: 0%;
+}
+
+.progress-line.active ~ .progress-line:before {
+  width: 0%;
+  -webkit-transition: width 0s linear;
+  -o-transition: width 0s linear;
+  transition: width 0s linear;
 }
 
 .drop-down__content {
