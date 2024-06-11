@@ -30,10 +30,11 @@ class ImageStory extends Story {
     }
 
     init() {
-        const img = document.createElement('img');
-        img.src = this.url;
+        // const img = document.createElement('img');
+        // img.src = this.url;
 
-        this.htmlContainer.append(img);
+        // this.htmlContainer.append(img);
+        this.htmlContainer.style.setProperty('background-image', `url(${this.url})`);
         this.animation = this._createAnimator({
             duration: this.duration * 1000,
             timing(timeFraction) {
@@ -359,6 +360,7 @@ class Stories {
             } else if( index === activeIndex) {
                 line.classList.remove('viewed');
                 line.classList.add('active');
+                this._setProgress(line, 0);
             } else if (index > activeIndex) {
                 line.classList.remove('viewed');
                 line.classList.remove('active');
@@ -748,7 +750,7 @@ class StoryCard {
             touchEndX = e.clientX;
             touchEndY = e.clientY;
             const timeDiff = performance.now() - touchStartTime;
-
+            this.stories.play();
             if (timeDiff < LONG_PRESS_DURATION) {
                 if (Math.abs(touchEndX - touchStartX) < 5 && Math.abs(touchEndY - touchStartY) < 5) {
                     //console.log('fast click');
@@ -772,8 +774,6 @@ class StoryCard {
                     }
                 }
             }
-
-            this.stories.play();
         });
 
         touchArea.addEventListener('pointermove', (e) => {
