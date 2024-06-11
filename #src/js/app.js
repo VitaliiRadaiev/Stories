@@ -90,31 +90,40 @@ function slideToggle(target, duration = 500) {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-    if(isMobile()) {
+    if (isMobile()) {
         document.body.classList.add('mobile-device');
     }
 
-    document.oncontextmenu = function (event) {
+    document.addEventListener('contextmenu', function (event) {
         if (event.target.tagName === 'IMG') {
             event.preventDefault();
         }
         if (event.target.tagName === 'VIDEO') {
             event.preventDefault();
         }
-        return false;
-      };
+    })
+
+    document.addEventListener('touchmove', function (event) {
+        // Получаем список всех пальцев, участвующих в жесте
+        const touches = event.touches;
+        // Если жест начинается с верхней или нижней части экрана
+        if (touches && (touches[0].clientY < 50 || touches[0].clientY > window.innerHeight - 50)) {
+            // Предотвращаем обновление страницы
+            event.preventDefault();
+        }
+    }, { passive: false });
 
     const clientScreenWidth = document.documentElement.clientWidth;
 
     window.addEventListener('resize', () => {
-        if(
+        if (
             document.documentElement.clientWidth >= 920
             && clientScreenWidth < 920
         ) {
             window.location.reload();
         }
 
-        if(
+        if (
             document.documentElement.clientWidth < 920
             && clientScreenWidth >= 920
         ) {
